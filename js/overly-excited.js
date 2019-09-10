@@ -25,7 +25,7 @@ function addExcitement_char(theWordArray) {
 }
 addExcitement_char(sentence);
 
-// adding new argument
+ //adding new argument
 function addExcitement_separator(theWordArray, seperator) {
     let buildMeUp = " "
     for (let i = 0; i < theWordArray.length; i++){
@@ -52,4 +52,6 @@ function addExcitement_times(theWordArray, seperator, numOfTimes) {
 }
 
 addExcitement_times(sentence, "*", 4)
+
+
 
